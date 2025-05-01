@@ -18,12 +18,23 @@
             color: #333;
         }
         header {
-            background-color: #ff6600;
+            background-color: #ff6600; /* Orange background */
             color: white;
             padding: 15px;
             text-align: center;
             font-size: 24px;
             font-weight: bold;
+        }
+        .logo-container {
+            background-color: #ff6600; /* Orange background for the logo */
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
         }
         main {
             max-width: 900px;
@@ -42,6 +53,9 @@
         h2 {
             color: #ff6600;
         }
+        h1 {
+            text-align: center; /* Center the title */
+        }
         .price {
             font-weight: bold;
             color: green;
@@ -59,16 +73,17 @@
         }
         .buy-button {
         display: inline-block;
-        padding: 15px 30px; /* Increased padding for a larger button */
+        padding: 10px 15px; /* Reduced horizontal padding */
         background-color: #ff6600; /* Orange color */
         color: white;
         text-decoration: none;
         font-weight: bold;
         border-radius: 8px; /* Slightly more rounded corners */
-        font-size: 18px; /* Increased font size */
+        font-size: 16px; /* Reduced font size */
         text-align: center;
         transition: background-color 0.3s ease;
         margin: 20px auto; /* Adds spacing and centers the button */
+        display: block; /* Center the buttons */
     }
 
     .buy-button:hover {
@@ -86,6 +101,10 @@
     .product:last-child {
         border-bottom: none; /* Remove the bar for the last product */
     }
+    .product img {
+        display: block;
+        margin: 0 auto; /* Center the images */
+    }
     </style>
 </head>
 <body>
@@ -94,53 +113,52 @@
 </amp-auto-ads>
 
 <header>
-    Technanlogy
+    <div class="logo-container">
+        <img src="path/to/your/logo.png" alt="Technanlogy Logo"> <!-- Replace with the actual path to the logo -->
+    </div>
 </header>
 
 <main>
-    <h1>Hora de Atualizar: Melhores Celulares para 2025 até R$1.900,00</h1>
+    <h1>Os melhores celulares de maio de 2025</h1> <!-- Updated title -->
 
     <h3>Se você está em busca de um smartphone que ofereça uma combinação ideal de desempenho, design e conectividade, escolher o modelo certo pode ser um desafio. Com tantas opções disponíveis no mercado, é importante considerar as características que atendem às suas necessidades, como desempenho, qualidade da câmera, bateria e, claro, a capacidade de se conectar à rede 5G para uma navegação mais rápida. Neste guia, apresentamos uma seleção de modelos populares e suas principais características para te ajudar a fazer a escolha certa. Vamos dar uma olhada nas especificações e vantagens de cada um para você tomar uma decisão informada!</h3>
 
     <div class="product">
-        <h2>Samsung Galaxy M55 5GG</h2>
-        <h3><p><span class="price">A partir de R$1.349,10</span></p>
-        <p>O Samsung M55 5G é uma ótima escolha para quem busca um dispositivo com excelente desempenho e conectividade de última geração. Com uma avaliação de 4,5 estrelas no Mercado Livre, o aparelho oferece boa performance, bateria duradoura e suporte à tecnologia 5G.</p>
+        <h2>Xiaomi Pocophone X7</h2>
+        <h3><p><span class="price">A partir de R$1.939</span></p>
+        <p>O POCO X7 5G é uma excelente opção para quem busca desempenho avançado, tela de alta qualidade e ampla capacidade de armazenamento. Avaliado com 4,8 estrelas no Mercado Livre, o aparelho se destaca pela fluidez proporcionada pela tela AMOLED de 120 Hz, bateria de longa duração e pelo poderoso processador Dimensity 7300 Ultra. Com 512 GB de espaço interno e 12 GB de RAM, é ideal para quem exige performance em jogos, multitarefas e fotografia com qualidade. Além disso, conta com proteção IP68 e suporte à conectividade 5G, garantindo durabilidade e velocidade no dia a dia.</p>
         
         <strong>Destaques:</strong>
         <ul class="highlights">
-            <li>✔ Tela de 6,6 polegadas Super AMOLED </li>
-            <li>✔ Taxa de atualização de 90 Hz</li>
-            <li>✔ Full HD+</li>
-            <li>✔ Câmera frontal de 13 MP</li>
+            <li>✔ Tela de 6,67 polegadas AMOLED</li>
+            <li>✔ Taxa de atualização de 120 Hz</li>
+            <li>✔ QHD</li>
+            <li>✔ Câmera frontal de 20MP</li>
+            <li>✔ Câmera traseira principal 50MP </li>
+            <li>✔ 512 GB de armazenamento</li>
+            <li>✔ 12GB RAM +até 12 GB virtual</li>
         </ul>
-        
-        <strong>Pontos a considerar:</strong>
-        <ul class="cons">
-            <li>✘ Estrutura pode não ser tão robusta</li></h3>
         </ul>
-        <img src="https://http2.mlstatic.com/D_NQ_NP_790246-MLA76009455749_042024-O.webp" alt="Samsung Galaxy M55 5G">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_857325-MLA82084063205_012025-O.webp" alt="Samsung Galaxy M55 5G">
         <a href="https://mercadolivre.com/sec/1Cbi24p" class="buy-button" target="_blank">IR À LOJA</a>
     </div>
 
     <div class="product">
-        <h2>Motorola Moto g84 5G</h2>
-        <h3><p><span class="price">A partir de R$1.336,50(promoção 26/04/2025)</span></p>
-        <p>O Motorola Moto G84 5G é uma excelente opção para quem busca desempenho, recursos avançados e conectividade 5G. Avaliado com 4,8 estrelas no Mercado Livre, o aparelho oferece uma performance sólida, bateria eficiente e suporte à rede 5G.</p>
+        <h2>Redmi Note 14</h2>
+        <h3><p><span class="price">A partir de R$1.279</span></p>
+        <p>O Redmi Note 14 é uma excelente escolha para quem busca um smartphone equilibrado, com bom desempenho, câmeras de alta resolução e recursos avançados a um preço acessível. Com uma avaliação positiva no Mercado Livre, o aparelho oferece uma experiência fluida, bateria de longa duração e suporte à tecnologia 4G.</p>
         
         <strong>Destaques:</strong>
         <ul class="highlights">
-            <li>✔ Tela de 6,55      polegadas POLED</li>
+            <li>✔ Tela de 6,67 polegadas AMOLED</li>
             <li>✔ Taxa de atualização de 120 Hz</li>
             <li>✔ Full HD+</li>
-            <li>✔ Câmera frontal de 16 MP</li>
+            <li>✔ Câmera frontal de 20 MP</li>
+            <li>✔ Câmera traseira principal: 108 MP </li>
+            <li>✔ 256 GB de armazenamento</li>            
+            <li>✔ 8GB RAM</li>
         </ul>
-        
-        <strong>Pontos a considerar:</strong>
-        <ul class="cons">
-            <li>✘ Estrutura pode ser mais suscetível a riscos</li></h3>
-        </ul>
-        <img src="https://http2.mlstatic.com/D_NQ_NP_928383-MLA81822930234_012025-O.webp" alt="Motorola Moto G84 5G">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_632492-MLA82457178294_022025-O.webp" alt="Motorola Moto G84 5G">
         <a href="https://mercadolivre.com/sec/1t5qdMf" class="buy-button" target="_blank">IR À LOJA</a>
     </div>
     <div class="product">
@@ -154,11 +172,10 @@
             <li>✔ Taxa de atualização de 120 Hz</li>
             <li>✔ Full HD+</li>
             <li>✔ Câmeras frontais de 13 MP</li>
-        </ul>
-        
-        <strong>Pontos a considerar:</strong>
-        <ul class="cons">
-            <li>✘ Estrutura pode ser menos resistente</li></h3>
+            <li>✔ Câmera traseira principal: 50 MP </li>
+            <li>✔ 256 GB de armazenamento</li>
+            <li>✔ 8GB de RAM</li>
+            
         </ul>
         <img src="https://http2.mlstatic.com/D_NQ_NP_886358-MLA79983835183_102024-O.webp" alt="Samsung Galaxy A25 5G ">
         <a href="https://mercadolivre.com/sec/1Xh66Ah" class="buy-button" target="_blank">IR À LOJA</a>
@@ -170,15 +187,13 @@
         
         <strong>Destaques:</strong>
         <ul class="highlights">
-            <li>✔ Tela IPS de 6.8"</li>
+            <li>✔ Tela IPS de 6.8 polegadas</li>
             <li>✔ Taxa de atualização de 120 Hz</li>
             <li>✔ Full HD+</li>
             <li>✔ Câmera frontal de 16 MP</li>
-        </ul>
-        
-        <strong>Pontos a considerar:</strong>
-        <ul class="cons">
-            <li>✘ Estrutura pode ser mais simples em relação a outros modelos</li></h3>
+            <li>✔ Câmera traseira principaL 50 MP</li>
+            <li>✔ 256 GB de armazenamento</li>
+            <li>✔ 8GB RAM</li>
         </ul>
         <img src="https://http2.mlstatic.com/D_NQ_NP_700570-MLA81786626594_012025-O.webp" alt="Motorola Moto G75 5G">
         <a href="https://mercadolivre.com/sec/25zoZ8w" class="buy-button" target="_blank">IR À LOJA</a>
@@ -194,11 +209,9 @@
             <li>✔ Taxa de atualização de 120 Hz</li>
             <li>✔ Full HD+</li>
             <li>✔ Câmera frontal de 13 MP</li>
-        </ul>
-        
-        <strong>Pontos a considerar:</strong>
-        <ul class="cons">
-            <li>✘ Estrutura pode ser menos resistente</li></h3>
+            <li>✔ Câmera traseira principaL 50 MP</li>
+            <li>✔ 256 GB de armazenamento</li>
+            <li>✔ 8GB RAM</li>
         </ul>
         <img src="https://http2.mlstatic.com/D_NQ_NP_920795-MLU79234491839_092024-O.webp" alt="Samsung Galaxy A35 5G">
         <a href="https://www.mercadolivre.com.br" class="buy-button" target="_blank">IR À LOJA</a>
@@ -214,11 +227,9 @@
             <li>✔ Taxa de atualização de 120 Hz</li>
             <li>✔ Full HD+</li>
             <li>✔ Câmera frontal de 16 MP</li>
-        </ul>
-        
-        <strong>Pontos a considerar:</strong>
-        <ul class="cons">
-            <li>✘ Estrutura pode ser menos resistente</li></h3>
+            <li>✔ Câmera traseira principaL 64 MP</li>
+            <li>✔ 256 GB de armazenamento</li>
+            <li>✔ 8GB RAM</li>
         </ul>
         <img src="https://http2.mlstatic.com/D_NQ_NP_961116-MLA83410300264_042025-O.webp" alt="Poco X6 5G">
         <a href="https://www.mercadolivre.com.br" class="buy-button" target="_blank">IR À LOJA</a>
